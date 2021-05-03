@@ -1,0 +1,12 @@
+# excluir contenido de carpetas de datos
+preprocesamiento/data/*
+datasets/data/*
+modelos/data/*
+clasificacion/data/*
+
+# excepciones para mantener las carpetas
+# exception to the rule
+!preprocesamiento/data/.gitkeep
+!datasets/data/.gitkeep
+!modelos/data/.gitkeep
+!clasificacion/data/.gitkeep
