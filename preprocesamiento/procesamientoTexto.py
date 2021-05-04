@@ -12,7 +12,8 @@ from miscTools import progressBar
 
 
 # Cargamos el modelo Spacy Español
-nlp = es_core_news_md.load()
+nlp = spacy.load("es_core_news_md")
+#nlp = es_core_news_md.load()
 
 
 def lematizar(texto, nlp):
